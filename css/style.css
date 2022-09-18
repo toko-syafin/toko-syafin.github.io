@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+html {
+  margin: 0;
+  padding-bottom: 0 !important;
+  background: #2c3e50 !important;
+}
+
+body {
+  margin: 0;
+}
+
+body #app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+body #app footer {
+  border-top: solid 2px rgba(0, 0, 0, 0.178);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+body #app footer p {
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #5d5d5d !important;
+}
+
+body #app .produk-view-show {
+  background: #2c3e50 !important;
+}
+
+body #app .produk-view-show .container .card {
+  color: white;
+  background: #5a7692 !important;
+}
+
+body #app .home-view {
+  background-color: #182430;
+  min-height: 100vh;
+}
+
+body #app .home-view .card.header .card-body {
+  color: white;
+  background: #2c3e50 !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: 5px solid #b45fc9 !important;
+}
+
+body #app .home-view div.card.header .head-logo .img-wrapper {
+  height: 120px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+body #app .home-view div.card.header .head-logo .img-wrapper img {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  right: 0;
+  bottom: -100%;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  -webkit-transition: all ease 300ms;
+  transition: all ease 300ms;
+}
+
+body #app .home-view div.card.header .logo {
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body #app .home-view div.card.header .logo .img-wrapper {
+  border: #d659da solid 5px;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+body #app .home-view div.card.header .logo .img-wrapper img {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  right: 0;
+  bottom: -100%;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  -webkit-transition: all ease 300ms;
+  transition: all ease 300ms;
+}
+
+body #app .home-view div.card.header .card-body {
+  background-color: rgba(191, 191, 191, 0.224);
+  padding-top: 30px;
+}
+
+body #app .home-view div.card.header .card-body .tagline {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+body #app .home-view div.card.header .card-body .sosial-media {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #app .home-view div.card.header .card-body .sosial-media a {
+  font-weight: bold;
+  display: block;
+  -webkit-text-decoration: 0;
+          text-decoration: 0;
+  color: #5082ff;
+}
+
+body #app .home-view div.card.header .card-body .card-title {
+  font-family: 'Merienda', cursive;
+  color: rgba(216, 89, 255, 0.991);
+}
+
+body #app .home-view div.card.header .card-body .card-text {
+  font-size: 14px;
+}
+
+body #app .home-view div.card.header .card-body .card-title {
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+body #app .home-view section.__produk {
+  text-align: start;
+}
+
+body #app .home-view section.__produk .card {
+  border: 0;
+  height: 380px;
+  -webkit-filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.34));
+          filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.34));
+}
+
+body #app .home-view section.__produk .card .card-body {
+  background: #5a7692 !important;
+  color: white;
+}
+
+body #app .home-view section.__produk .card .card-body .card-title {
+  font-weight: bold;
+}
+
+body #app .home-view section.__produk .card .card-body .list-group-item {
+  border: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body #app .home-view section.__produk .card .card-footer button.btn {
+  width: 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border: 0;
+  background: rgba(122, 96, 240, 0.991);
+}
+
+body #app .home-view section.__produk .img-wrapper {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+body #app .home-view section.__produk .img-wrapper img {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  right: 0;
+  bottom: -100%;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  -webkit-transition: all ease 300ms;
+  transition: all ease 300ms;
+}
+
+@media screen and (max-width: 600px) {
+  body #app .home-view section.__produk .row .card {
+    margin-bottom: 20px;
+    max-height: 240px;
+  }
+  body #app .home-view section.__produk .row .card .img-wrapper {
+    height: 100px !important;
+  }
+  body #app .home-view section.__produk .row .card .card-title {
+    font-size: 14px;
+  }
+  body #app .home-view section.__produk .row .card .card-text {
+    font-size: 12px;
+  }
+  body #app .home-view section.__produk .row .card .card-body .list-group-item {
+    font-size: 12px;
+  }
+  body #app .home-view section.__produk .row .card .card-body a.btn {
+    font-size: 12px;
+  }
+}
+
+body #app .admin-view nav.navbar .nav-link.active {
+  color: #02ff02;
+}
+
+body #app .admin-view .admin-view-products button.add-new-product {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 100%;
+}
+
+body #app .admin-view .admin-view-products table.table {
+  text-align: center;
+}
+
+body #app .admin-view .admin-view-products table.table .img-wrapper {
+  height: 100px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+body #app .admin-view .admin-view-products table.table .img-wrapper img {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  right: 0;
+  bottom: -100%;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  -webkit-transition: all ease 300ms;
+  transition: all ease 300ms;
+}
+
+@media screen and (max-width: 600px) {
+  body #app .admin-view .admin-view-products table.table {
+    font-size: 12px;
+  }
+  body #app .admin-view .admin-view-products table.table .img-wrapper {
+    height: 50px;
+  }
+}
+
+body #app .login-view {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+body #app .login-view .card {
+  border: 0;
+  border-top: #903cae solid 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: white;
+}
+
+body #app .login-view .card-body {
+  background: #2c3e50 !important;
+  padding-top: 100px;
+}
+
+body #app .login-view .card-body .card-title {
+  color: #f54091;
+}
+
+body #app .login-view .card-body .card-text, body #app .login-view .card-body .card-title {
+  font-weight: bold;
+}
+
+body #app .login-view .card-body form {
+  color: #182430;
+}
+
+body #app .login-view .card-body form button.btn {
+  width: 100%;
+}
+
+body #app .login-view .logo {
+  position: absolute;
+  left: 50%;
+  top: -10px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body #app .login-view .logo .img-wrapper {
+  border: #9f81ff solid 5px;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+body #app .login-view .logo .img-wrapper img {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  right: 0;
+  bottom: -100%;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  -webkit-transition: all ease 300ms;
+  transition: all ease 300ms;
+}
+
+@media screen and (max-width: 600px) {
+  body #app .login-view .card-text {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
